@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 60%;
+    background-color: #515151;
+    color: white;
+    margin: 0 auto;
+    font-size: smaller;
+}
+.header {
+    height: 60px;
+    line-height: 60px;
+    background-color: #313131;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.ingreso {
+    display: flex;
+    justify-content: space-between;
+}
+.input {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+.btn {
+    width: 100px;
+    padding: 8px;
+    background-color: royalblue;
+    border: 1px solid royalblue;
+    border-radius: 5px;
+    color: white;
+}
+.info {
+    margin-right: 10px;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1em;
+    font-family: sans-serif;
+    min-width: 450px;
+ }
+.table thead tr {
+    background-color: #313131;
+    border: 1px solid gainsboro;
+    border-radius: 10px;    
+}
+.th-small {
+    width: 50px;
+    text-align: center;
+}
+.th-large {
+    width: 500px;
+}
+.table tbody tr {
+    border-bottom: 1px solid gainsboro;
+}
+.table th, .table td {
+    padding: 8px 15px;    
+}
+.icobtn {
+    width: 12px;
+    height: 13px;
+    line-height: 13px;    
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 2px;
+    color: white;
+    text-align: end;
+}
